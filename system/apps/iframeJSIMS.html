@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function JSIMS() {
+            if(localStorage.getItem("yesJSIMS!")!="none") {
+                document.open();
+                document.write(localStorage.getItem("JSIMS!"))
+  document.close();
+                
+                localStorage.setItem("yesJSIMS!", "none")
+            }
+        }
+        setInterval(function(){
+            JSIMS()
+        }, 1);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

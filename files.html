@@ -1,0 +1,163 @@
+<!DOCTYPE htm>
+<html>
+    <head>
+    </head>
+    <body style="background-color: paleturquoise;" onmousemove="showCoords(event)">
+        <h1>Work In Progress!</h1>
+        <div  style="display: none /* To Hide App JSIMS!*/;">
+        <button>sdjfdsfaabsjfasdbfkfdlsbifulbievs</button>
+       <!--  <textarea style="width: 100%; height: 100%;" onkeyup="this.value = 'This app is a Work in Progress. Please check back later.';" placeholder="Functions" id="functions"></textarea>
+-->
+        <!--
+         <div style="width: 100%; height: 1vw; background-color: aliceblue;"  id="functions">
+            
+             <div style="width: 50%; height: 1vw; background-color: #0088ff; border-style: solid; border-width: thin; display: flex;
+  flex-direction: row;"   id="functions">
+            Super OmNom
+        </div>
+             <div style="width: 50%; height: 1vw; background-color: #0088ff; border-style: solid; border-width: thin; display: flex;
+  flex-direction: row;"   id="functions">
+            Super Wow
+        </div>
+             
+             
+        </div>
+        
+        <style>
+            
+            
+        </style>-->
+        <!-- Below is new! JSIMS!-->
+        <div style="width: 30%; height: 100%; background-color: aliceblue; margin:auto; position: fixed; left: 0; top: 0;"  JSIMSOYHI>
+            <file>
+                <div style="">Main</div>
+            </file>
+        </div>
+        <div filesJSIMS style="width: 70%; height: 100%; background-color: aliceblue; margin:auto; position: fixed; right: 0; top: 0;border-left-color: darkred;border-left-width: 3px;border-left-style: solid;">
+            
+            <file objectJSIMS>
+                <div style="">JSIMS<span style="color: red;">.txt</span><img src="https://image.flaticon.com/icons/png/512/768/768818.png"></div>
+            </file>
+            <file objectJSIMS>
+                <div style="">JSIMS<span style="color: red;">.txt</span></div>
+            </file>
+            
+            <file objectJSIMS>
+                <div style="">JSIMS<span style="color: red;">.txt</span></div>
+            </file>
+            
+            <file objectJSIMS>
+                <div style="">JSIMS<span style="color: red;">.txt</span></div>
+            </file>
+            
+            
+        </div>
+        <div style="width: 70%; height: 30%; background-color: aliceblue; margin:auto; position: fixed; right: 0; bottom: 0;border-top-color: darkred;border-top-width: 3px;border-top-style: solid;text-align: center;">
+        <span style="font-size: 3vw;text-align: center; color: red;">JSIMS.txt</span>a<br><button style="width:9vw; height: 3vw; border-radius: 9px; font-size: 1.936vw; background-color: red;position: relative; top: 0vw;" >Open</button></div>
+        <style>
+            
+            @font-face {
+            font-family: InterBlack;
+            src: url(fonts/Inter-Black.ttf);
+            }
+
+            @font-face {
+            font-family: InterThin;
+            src: url(fonts/Inter-Thin.ttf);
+            }
+            body{
+                font-family: InterBlack;
+            }
+            /* This was once in the first `file div "main"`*/
+            file div{
+                /*
+                color: red; background-color: aquamarine; width: 100%; height: 3vw; text-align: center; font-size: 3vw;border-color: darkred;border-width: 3px;border-style: solid; border-right: none; border-left: none;
+                */
+                color: red; 
+                background-color: aquamarine; 
+                width: 100%; 
+                height: 3vw; 
+                text-align: center; 
+                font-size: 3vw;
+                border-color: darkred;
+                border-width: 3px;
+                border-style: solid; 
+                border-right: none; 
+                border-left: none;
+            }
+            file[objectJSIMS] div{
+                /*
+                color: red; background-color: aquamarine; width: 100%; height: 3vw; text-align: center; font-size: 3vw;border-color: darkred;border-width: 3px;border-style: solid; border-right: none; border-left: none;
+                */
+                color: darkred; 
+                background-color: aquamarine; 
+                width: 100%; 
+                height: 1.369vw; 
+                text-align: right; 
+                font-size: 1.369vw;
+                border-color: darkred;
+                border-width: 3px;
+                border-style: solid; 
+                border-right: none; 
+                border-left: none;
+            }
+            file[objectJSIMS] div img{
+                float: left;
+                height: 100%;
+            }
+            file[objectJSIMS] div:hover{
+                /*
+                color: red; background-color: aquamarine; width: 100%; height: 3vw; text-align: center; font-size: 3vw;border-color: darkred;border-width: 3px;border-style: solid; border-right: none; border-left: none;
+                */
+                color: darkred; 
+                background-color: aquamarine; 
+                text-align: right; 
+                font-size: 1.639vw;
+                border-color: red;
+                border-width: 4.3px;
+                border-style: inset; 
+            }
+        </style>
+        <script>
+            var filesJSIMS = [
+                {
+                    name: "fileJSIMS",
+                    //type: ".app"
+                    type: "app"
+                },
+                {
+                    name: "Things_to_do",
+                    //type: ".app"
+                    type: "txt"
+                },
+            ]
+            var ILTLWAMH;
+            for(ILTLWAMH=0; ILTLWAMH<filesJSIMS.length;ILTLWAMH++){
+                var JSIMSOYHI = document.createElement("file");
+                JSIMSOYHI.innerHTML = `
+                <div style=""><!--JSIMS-->${filesJSIMS[ILTLWAMH].name}<span style="color:red;">.${filesJSIMS[ILTLWAMH].type}</span></div>`;
+                JSIMSOYHI.setAttribute("objectJSIMS", "JSIMS")
+                document.querySelector("[filesJSIMS]").appendChild(JSIMSOYHI)
+            }
+            setInterval(function(){
+                var x = event.clientX-100;
+  var y = event.clientY-961;
+  var coords = "X coords: " + x + ", Y coords: " + y;
+  document.querySelector("[JSIMSOYHI]").style.top = y + "px";
+  document.querySelector("[JSIMSOYHI]").style.left = x + "px";
+            }, 1)
+            function showCoords(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var coords = "X coords: " + x + ", Y coords: " + y;
+  document.querySelector("[JSIMSOYHI]").style.top = y + "px";
+  document.querySelector("[JSIMSOYHI]").style.left = x + "px";
+  //document.querySelector("[JSIMSOYHI]").style.fontSize = y + x + "px";
+}
+        </script>
+        
+        <!---->
+            </div>
+    </body>
+
+</html>

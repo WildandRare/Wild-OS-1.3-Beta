@@ -1,0 +1,8 @@
+{get.HTMLfile("htmleditorJSIMS.html") as htmlfile;}
+ignore.this(
+    htmlDisplay: {
+        file: htmlfile;
+    }
+)
+Sonia what type of sign language are you learning, I am learning American Sign Language
+I am also learning A.S.L.(American sign language) and I know all the letters and numbers
